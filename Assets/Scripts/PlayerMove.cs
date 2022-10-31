@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     
     private readonly float _angleOnRight = 0;
     private readonly float _angleOnLeft = 180;
+    
     private Animator _animator;
     private bool _isWalking;
 

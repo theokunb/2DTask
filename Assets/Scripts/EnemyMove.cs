@@ -6,12 +6,14 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     [SerializeField] private float _speed;
+    
+    private readonly float _angleOnRight = 0;
+    private readonly float _angleOnLeft = 180;
 
     private CheckForwardGround _checkForward;
     private Animator _animator;
     private AttackCheck _attackCheck;
-    private readonly float _angleOnRight = 0;
-    private readonly float _angleOnLeft = 180;
+    
 
 
     private void Start()

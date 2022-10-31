@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
         _random = new System.Random();
         _points = GetComponentsInChildren<SpawnPoint>();
 
-        StartCoroutine(nameof(Spawn));
+        StartCoroutine(Spawn());
     }
 
     private IEnumerator Spawn()
