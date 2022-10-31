@@ -26,11 +26,9 @@ public class PlayerCollect : MonoBehaviour
     {
         while(coin.CanDestroy == false)
         {
-            Debug.Log("playing");
             yield return null;
         }
 
-        Debug.Log("destoy");
         Destroy(coin.gameObject);
     }
 }
