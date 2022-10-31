@@ -1325,13 +1325,13 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Archangel_52: 529950588
-      Archangel_14: 1973864644
       Archangel_16: -356001374
       Archangel_43: -1185294589
       Archangel_32: 392673744
       Archangel_7: -1488658945
       Archangel_5: 29985009
       Archangel_50: 2049026550
+      Archangel_39: 2015518651
       Archangel_68: 1881753474
       Archangel_26: 370103449
       Archangel_63: 1100847383
@@ -1352,15 +1352,15 @@ TextureImporter:
       Archangel_17: -595906552
       Archangel_40: -730537609
       Archangel_1: -1713343562
-      Archangel_49: 1370070980
       Archangel_66: -1971092288
       Archangel_18: -1834406553
       Archangel_56: -2056782733
-      Archangel_20: -1632819572
-      Archangel_58: 783019585
-      Archangel_3: -532981570
-      Archangel_53: 1741503477
       Archangel_23: -1760727926
+      Archangel_20: -1632819572
+      Archangel_49: 1370070980
+      Archangel_3: -532981570
+      Archangel_58: 783019585
+      Archangel_53: 1741503477
       Archangel_0: -643113237
       Archangel_2: 2126184311
       Archangel_9: -1798615196
@@ -1390,8 +1390,8 @@ TextureImporter:
       Archangel_27: 170663341
       Archangel_59: -1555551692
       Archangel_41: 1253710718
-      Archangel_39: 2015518651
       Archangel_34: -1526597121
+      Archangel_14: 1973864644
       Archangel_45: -380940662
   spritePackingTag: 
   pSDRemoveMatte: 0

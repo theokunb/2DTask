@@ -33,13 +33,13 @@ public class PlayerMove : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow))
         {
             _isWalking = false;
-            _animator.SetFloat(ArchangelAnimationController.Params.Speed, 0);
+            _animator.SetFloat(FamilliarAnimationController.Params.Speed, 0);
         }
     }
 
     private IEnumerator Walk(float angle)
     {
-        _animator.SetFloat(ArchangelAnimationController.Params.Speed, _speed);
+        _animator.SetFloat(FamilliarAnimationController.Params.Speed, _speed);
         transform.rotation = new Quaternion(0, angle, 0, 0);
 
         while(_isWalking)

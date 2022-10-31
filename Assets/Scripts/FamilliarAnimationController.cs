@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class ArchangelAnimationController
+public static class FamilliarAnimationController
 {
     public static class Params
     {
         public const string Speed = "Speed";
-        public const string Attack = "Attack";
+        public const string OnGround = "OnGround";
     }
 }
