@@ -13,15 +13,6 @@ public class CheckForwardGround : MonoBehaviour
 
     private void Update()
     {
-        var hit = Physics2D.Raycast(transform.position, transform.right, _visibilityRange, _ground);
-        
-        if(hit)
-        {
-            _canMove = true;
-        }
-        else 
-        {
-            _canMove = false;
-        }
+        _canMove = Physics2D.Raycast(transform.position, transform.right, _visibilityRange, _ground);
     }
 }
